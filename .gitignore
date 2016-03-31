@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.idea
+.tmp
+gulp-cache
+.DS_Store
+Thumbs.db
+.publish
+/build
