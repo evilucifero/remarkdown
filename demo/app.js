@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Markdown from '../src';
+import Markdown from '../dist';
+
+import './monokai.css';
 
 const LOREM =`
 # heading1
@@ -11,11 +13,16 @@ const LOREM =`
 ###### heading6
 
 1. qwew
+  1. qwew
+    1. qwew
+      1. qwew
 1. qwew
 1. qwew
 
 
 - li
+  - sub li
+    - sub sub li
 - li
 - li
 

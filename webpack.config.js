@@ -13,13 +13,12 @@ module.exports = {
   },
   devtool: 'source-map',
   entry: {
-    bundle: [path.resolve(__dirname, 'src/index.js')],
     app: path.resolve(__dirname, 'demo/app.js'),
   },
   output: {
     path: path.resolve(__dirname, 'build'),
     publicPath: '/',
-    filename: '[name].js',
+    filename: 'app.js',
   },
   module: {
     loaders: [
@@ -37,7 +36,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'demo'),
         loader: 'style!css',
       }
     ]
