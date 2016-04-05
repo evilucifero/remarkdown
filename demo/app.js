@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Markdown from '../build';
 
+import '../style/monokai.css';
+
 const LOREM =`
 # heading1
 ## heading2
