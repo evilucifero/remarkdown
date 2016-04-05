@@ -16,6 +16,8 @@ var _highlight = require('highlight.js');
 
 var _highlight2 = _interopRequireDefault(_highlight);
 
+require('../style/monokai.css');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var highlight = function highlight(code, lang) {

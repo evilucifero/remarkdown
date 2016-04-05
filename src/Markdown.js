@@ -2,6 +2,8 @@ import React, { PropTypes } from 'react';
 import marked from 'marked';
 import H from 'highlight.js';
 
+import '../style/monokai.css';
+
 const highlight = (code, lang) => {
   if (lang) {
     return H.highlightAuto(code, [lang]).value;

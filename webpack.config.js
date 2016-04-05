@@ -9,14 +9,14 @@ module.exports = {
     inline: true,
     progress: true,
     contentBase: './demo',
-    port: 3223
+    port: 3224,
   },
   devtool: 'source-map',
   entry: {
     app: path.resolve(__dirname, 'demo/app.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     filename: 'app.js',
   },
@@ -36,7 +36,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: path.resolve(__dirname, 'demo'),
+        include: path.resolve(__dirname, 'style'),
         loader: 'style!css',
       }
     ]
