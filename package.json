@@ -1,6 +1,6 @@
 {
   "name": "remarkdown",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "A React Component to create markdown easily.",
   "main": "build/index.js",
   "keywords": [
